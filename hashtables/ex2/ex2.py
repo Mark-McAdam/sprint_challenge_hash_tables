@@ -49,7 +49,7 @@ if __name__ == "__main__":
 
     # expected = ["PDX", "DCA", "NONE"]
     result = reconstruct_trip(tickets, 3)
-
+    print(result)
     # its returning
     # {'NONE': 'PDX', 'PDX': 'DCA', 'DCA': 'NONE'}
     # need to trim off the rest

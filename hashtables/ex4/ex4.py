@@ -2,6 +2,7 @@ def has_negatives(a):
     """
     For an input list of integers, we wish to know which positive numbers 
     have corresponding negative numbers in the list.    """
+    
     # Your code here
 
     # Hash table to hold value
@@ -32,6 +33,7 @@ def has_negatives(a):
     # but is has a key in dictionary that
     # matches negative equivalent the number
     # append that number to the result
+    if i > 0:
 
     # result is a list of values with corresponding
     # negative valueto pass the test
@@ -39,6 +41,9 @@ def has_negatives(a):
 
     return result
 
+# absolute number method to check out 
+# allows comparison if they have both . 
+# if result of both is zero append match to result
 
 if __name__ == "__main__":
     # For this test we are expecting -4 to be returned
